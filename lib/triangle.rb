@@ -21,8 +21,5 @@ class Triangle
     end
   end
   class TriangleError < StandardError
-    def message
-      "Bad Triangle"
-    end
   end
 end
