@@ -17,6 +17,8 @@ class Triangle
     else
       if (l1 === l2 && l1 === l3 && l3 === l2)
         return :equilateral
+      elsif (l1 === l2 || l1 === l3 || l3 === l2)
+        return :isosceles
       end
     end
   end
