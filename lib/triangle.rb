@@ -7,9 +7,20 @@ class Triangle
     @l3 = l3
   end
   def type
-
+    sum = l1 + l2
+    if (sum < l3 || l1 === 0 || l2 === 0 || l2 ===0)
+      begin
+        raise TriangleError => error
+      rescue TriangleError
+        puts TriangleError.message
+      end
+    else
+      
+    end
   end
   class TriangleError < StandardError
-    # triangle error code
+    def message
+      "Bad Triangle"
+    end
   end
 end
