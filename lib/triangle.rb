@@ -19,6 +19,8 @@ class Triangle
         return :equilateral
       elsif (l1 === l2 || l1 === l3 || l3 === l2)
         return :isosceles
+      elsif (l1 != l2 && l1 != l3 && l3 != l2)
+        return :scalene
       end
     end
   end
