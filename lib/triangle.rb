@@ -7,7 +7,7 @@ class Triangle
     @l3 = l3
   end
   def kind
-    sum = l1 + l2
+    sum = l1 + l2 + l3
     if (sum < l3 || l1 === 0 || l2 === 0 || l2 ===0 || l1 < 0 || l2 < 0 || l3 < 0)
         raise TriangleError
     else
