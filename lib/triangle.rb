@@ -6,7 +6,7 @@ class Triangle
     @l2 = l2
     @l3 = l3
   end
-  def type
+  def kind
     sum = l1 + l2
     if (sum < l3 || l1 === 0 || l2 === 0 || l2 ===0)
       begin
