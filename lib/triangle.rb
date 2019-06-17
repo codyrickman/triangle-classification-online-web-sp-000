@@ -16,6 +16,8 @@ class Triangle
       end
     else
       if (l1 === l2 && l1 === l3 && l3 === l2)
+        return :equilateral
+      end
     end
   end
   class TriangleError < StandardError
